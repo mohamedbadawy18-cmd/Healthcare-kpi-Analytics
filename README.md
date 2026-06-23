@@ -1,9 +1,9 @@
-# 🏥 Healthcare KPI Analytics
+#  Healthcare KPI Analytics
 > Identifying bed allocation inefficiencies, staff workload imbalances, and patient fall risk patterns across 500,000 patient records
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 | | |
 |---|---|
@@ -15,7 +15,7 @@
 
 ---
 
-## 🎯 Business Problem
+##  Business Problem
 
 A multi-department hospital needed to understand three operational risk areas:
 
@@ -26,7 +26,7 @@ A multi-department hospital needed to understand three operational risk areas:
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **Source:** Synthetic dataset modeled on realistic hospital operations patterns
 - **Size:** 500,000 patient admission records across 5 departments (Emergency, ICU, Surgery, Pediatrics, General Medicine)
@@ -37,7 +37,7 @@ A multi-department hospital needed to understand three operational risk areas:
 
 ---
 
-## 🔍 Methodology
+##  Methodology
 
 ### Phase 1 — Data Cleaning & EDA (Python)
 - Engineered `Age_Group` bins and the `Dept_Date_Key` composite join key
@@ -51,7 +51,7 @@ A multi-department hospital needed to understand three operational risk areas:
 
 ---
 
-## 💡 Key Findings
+##  Key Findings
 
 | # | Finding | Data |
 |---|---|---|
@@ -66,7 +66,7 @@ A multi-department hospital needed to understand three operational risk areas:
 
 ---
 
-## 📈 Dashboard Pages
+##  Dashboard Pages
 
 ### Page 1 — Overview
 5 KPI cards (Total Patients, Fall Rate, Discharge Delay Rate, Avg Length of Stay, Avg Occupancy Rate) + Occupancy trend line over time + Gauge vs. 85% target + Donut of fall incidents + Treemap of patient volume by department + Bar chart of occupancy by department
@@ -79,20 +79,20 @@ KPI cards (Inefficiency %, High-Risk Fall Rate 65+, Occupancy Rate) + Line chart
 
 ---
 
-## ✅ Recommendations
+##  Recommendations
 
-### 1. 🔴 Strengthen ICU Fall Prevention Protocols
+### 1.  Strengthen ICU Fall Prevention Protocols
 ICU records the highest fall incident rate at 3.51% — nearly double the hospital-wide average — combined with the highest bed occupancy (91.1%). Recommend hourly rounding checklists and bed-exit sensor alarms specifically for ICU.
 
-### 2. 🟡 Implement Targeted Monitoring for Patients Aged 65+
+### 2.  Implement Targeted Monitoring for Patients Aged 65+
 Patients 65+ fall at more than triple the rate of patients under 18 (3.53% vs. 1.00%). Age-based risk scoring at admission, paired with proximity alerts for this group, could reduce incidents without added staffing costs.
 
-### 3. 🔵 Resolve the Discharge Process Bottleneck
+### 3.  Resolve the Discharge Process Bottleneck
 38% of patients experience discharge delays, driving a 17% increase in length of stay beyond clinically ideal timelines. This points to administrative or bed-availability friction. A dedicated discharge coordinator per department could recover meaningful bed capacity.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ├── README.md
@@ -110,15 +110,15 @@ Patients 65+ fall at more than triple the rate of patients under 18 (3.53% vs. 1
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 
 - **Python** (pandas, matplotlib, seaborn) — Data generation, EDA, visualizations
 - **Power BI** — Star schema data modeling, DAX measures, 3-page interactive dashboard with diverse visual types
 
 ---
 
-## 👤 About
+##  About
 
 This project simulates a real-world hospital operations analytics scenario, built end-to-end from a synthetically generated dataset modeled on realistic departmental risk profiles, occupancy patterns, and patient demographics.
 
-📧 [Your Email] | 💼 [Your LinkedIn URL] | 🐙 [Your GitHub URL]
+📧 [mohamedbadawisayed@gmail.com] | 💼 [https://www.linkedin.com/in/mohamed-badawi28] | 🐙 [https://github.com/mohamedbadawy18-cmd]
